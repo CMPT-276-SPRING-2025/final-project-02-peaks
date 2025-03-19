@@ -188,3 +188,16 @@ html, body {
   align-items: center; 
 }
 
+/*------------------------*/
+
+.logo-container {
+  width: 100%;
+  height: 8vh;
+  background-color: slategray;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  position: fixed;
+  padding-left: 2vw;
+}
