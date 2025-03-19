@@ -201,3 +201,37 @@ html, body {
   position: fixed;
   padding-left: 2vw;
 }
+
+/*------------------------*/
+
+.result-container {
+  background-color: #eaecee;
+  width: min(max(60%, 200px), 900px);
+  height: min(max(15%, 50px), 70px);
+  border-radius: 8px;
+}
+
+.result-left {
+  width: 60%;
+  margin-inline: 5%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.result-filters {
+  width: 100%;
+  margin-top: -8%;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.result-ingredients {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+}
