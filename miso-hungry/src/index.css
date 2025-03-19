@@ -207,7 +207,7 @@ html, body {
 .result-container {
   background-color: #eaecee;
   width: min(max(60%, 200px), 900px);
-  height: min(max(15%, 50px), 70px);
+  height: min(max(30%, 200px), 300px);
   border-radius: 8px;
 }
 
@@ -227,11 +227,68 @@ html, body {
   flex-direction: row;
 }
 
-
-
 .result-ingredients {
   width: 100%;
   
   display: flex;
   flex-direction: row;
+}
+
+/*------------------------*/
+.recipe-page {
+  width: 100vw; 
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.recipe-container {
+  width: 60%; 
+  padding: 5%;
+  height: 80%;
+  background-color: #eaecee;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.recipe-left {
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-filters {
+  width: 100%;
+  margin-top: -8%;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.ingredients-container {
+  width: 100%; 
+  height: 80%;
+  background-color: #eaecee;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.ingredients-left {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.nutrition-container {
+  margin-top: 100px;
 }
