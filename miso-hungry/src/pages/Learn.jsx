@@ -1,8 +1,11 @@
 import React from 'react';
+import Logo from '../components/Logo';
+import { NavLink } from 'react-router-dom';
 
 function Learn() {
   return (
     <>
+      <Logo/>
       <div className="learn-container">
         <h1>How to use MisoHungry</h1>
         <div className="learn-instructions">
@@ -19,7 +22,7 @@ function Learn() {
                 <p>Find recipes</p> 
             </div>
         </div>
-        <p><a href="#" className="back-button">Back to Home</a></p>
+        <p><NavLink to = '/index' className={({ isActive }) => isActive ? "active-link" : ""}>Back to Home</NavLink></p>
       </div>
     </>
   );
