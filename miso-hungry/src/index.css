@@ -34,31 +34,30 @@ html, body {
 }
 
 .home-container h1 {
-  font-size: min(max(7vw, 60px), 90px);
+  font-size: min(max(7vw, 70px), 90px);
 }
 
 .home-container button {
   background-color: #b5bbc2;
-
   border: 1px solid #b5bbc2;
   border-radius: 8px;
+
   padding-top: 1.5vh;
   padding-bottom: 1.5vh;
   padding-left: 2vw;
   padding-right: 2vw;
-  margin-top: -4%;
-
+  margin-top: min(max(-6vw, -10px), -40px);
   transition: background-color 0.3s;
 }
 
-button a {
+.home-container button a {
   color: rgb(48, 48, 48);
   font-size: min(max(2vw, 18px), 25px);
   text-decoration: none;
   font-weight: bold;
 }
 
-button:hover {
+.home-container button:hover {
   background-color: rgba(165, 165, 165, 0.3); 
   border: 1px solid rgba(165, 165, 165, 0.3);
 }
@@ -81,7 +80,7 @@ button:hover {
   width: min(max(80%, 200px), 900px);
   height: min(max(15%, 50px), 70px);
 
-  margin-bottom: 1%;
+  margin-bottom: 10px;
   border-radius: 8px;
 
   display: flex;
@@ -91,7 +90,7 @@ button:hover {
 }
 
 .filter-bar button {
-  font-size: min(max(1.3vw, 15px), 25px);
+  font-size: min(max(0.5vw, 15px), 25px);
   color: white;
   background-color: transparent;
   border: none;
@@ -118,16 +117,17 @@ button:hover {
   font-size: min(max(1.3vw, 15px), 25px);
   color: white;
 }
+
 .filter-nationality {
   height: 30px;
-  margin-top: 13px;
+  align-self: center;
   margin-left: 3px;
 }
 
 .filter-bar input{
   width: 30px;
   height: 25px;
-  margin-top: 13px;
+  align-self: center;
   margin-left: 3px;
 }
 
@@ -137,10 +137,54 @@ button:hover {
 }
 
 .submit-button {
+  background-color: #eaecee;
+  border: 1px solid #eaecee;
+  border-radius: 8px;
+
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
   margin-top: 1%;
+  transition: background-color 0.3s;
 }
 
 .submit-button a{
   font-size: min(max(1.3vw, 15px), 25px);
+}
+
+/*------------------------*/
+
+.learn-container {
+  width: 100vw; 
+  height: 100vh;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.learn-container h1 {
+  font-size: min(max(5vw, 50px), 90px);
+}
+
+.learn-instructions {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.instruction-container{
+  width: 23vw;
+  height: 45vh;
+  background-color: rgb(72, 76, 85);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
 }
 
