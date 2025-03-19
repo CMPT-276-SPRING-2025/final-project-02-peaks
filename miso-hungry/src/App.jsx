@@ -1,9 +1,9 @@
-import Homepage from './Homepage.jsx';
-import Form from './Form.jsx';
-import Learn from './Learn.jsx';
-import Logo from './Logo.jsx';
-import Result from './Result.jsx';
-import Recipe from './Recipe.jsx';
+import Homepage from './pages/Homepage.jsx';
+import Form from './pages/Form.jsx';
+import Learn from './pages/Learn.jsx';
+import Logo from './components/Logo.jsx';
+import Result from './components/Result.jsx';
+import Recipe from './pages/Recipe.jsx';
 
 import './App.css';
 
