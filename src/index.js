@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: '/final-project-02-peaks',
+  basename: '/',
 });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
