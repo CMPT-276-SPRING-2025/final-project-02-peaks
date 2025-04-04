@@ -154,6 +154,11 @@ button {
   caret-color: transparent;
 }
 
+.filter-nationality option {
+  background-color: #272e42; /* or whatever you want */
+  color: white;
+}
+
 .input-button {
   height: 100%; 
   width: 80px;
