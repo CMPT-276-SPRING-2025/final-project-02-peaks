@@ -6,6 +6,7 @@ import Homepage from './pages/Homepage.jsx';
 import Learn from './pages/Learn.jsx';
 import Recipe from './pages/Recipe.jsx';
 
+// Routes for website
 function App() {
   return (
     <Routes>
