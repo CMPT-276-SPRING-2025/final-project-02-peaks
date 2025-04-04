@@ -122,7 +122,7 @@ function Form() {
                 filter1={filter1}
                 filter2={filter2}
                 filter3={filter3}
-                description={"Test Description"}
+
                 imageUrl={item.imageURL}
                 recipeIngredients={item.ingredients.map(ingr => ingr.food)}
               />
