@@ -8,6 +8,7 @@ import ScrollToTop from '../components/ScrollToTop';
 function Homepage() {
   const formRef = useRef(null);
 
+  // function to scroll to form -> (click to start!)
   const scrollToForm = () => {
     if (formRef.current) {
       const yOffset = -40;
@@ -30,7 +31,7 @@ function Homepage() {
         </button>
         <p className = "to-learn">or <Link to="/learn">click here</Link> to learn...</p>
         </div>
-      <div ref={formRef}> {/* Reference to Form */}
+      <div ref={formRef}> {/* goes to form*/}
         <Form/>
         <Footer/>
       </div>
