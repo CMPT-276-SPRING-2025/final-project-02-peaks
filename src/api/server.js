@@ -21,7 +21,9 @@ export const generateNutrition = async (ingredients = []) => {
                 - Calories: [total_calories] kcal
                 - Fats: [total_fats] g
                 - Carbohydrates: [total_carbs] g
-                - Proteins: [total_proteins] g`
+                - Proteins: [total_proteins] g
+                Make sure you only include the neccesary ingredients
+                Also make sure you only use FORMAL MEASUREMENTS`
             }],
             max_tokens: 1500,
         });
@@ -48,13 +50,15 @@ export const generateHealthEvaluation = async (ingredients = []) => {
 
                 \nOverall Health Rating: (Provide a single rating out of 10)
 
+
                 \nStrengths: (List the general strengths of this ingredient combination)
 
                 \nWeaknesses: (List the general weaknesses of this ingredient combination)
 
                 \nSuggestions for Improvement: (Provide suggestions on how to make this dish healthier)
 
-                Ensure that the format stays the same every time and avoid evaluating ingredients separately.`
+                Ensure that the format stays the same every time and avoid evaluating ingredients separately.
+                All LISTS must be NUMBERED`
             }],
             max_tokens: 1500,
         });
@@ -77,7 +81,9 @@ export const generateIngredientSubstitutions = async (ingredients = [], dietType
 
                             Please provide the response in the following format:
                             1. [Original Ingredient]: [Substitution]
+                            \nShort reasoning
                             2. [Original Ingredient]: [Substitution]
+                            \nShort reasoning
                             ...
                             Make sure each substitution is clearly numbered.`
             }],
