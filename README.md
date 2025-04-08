@@ -75,10 +75,11 @@ It should open a browser, if not, open a browser and go to this link:
 
 
 ## Project Sources  
-- **Live Website**: final-project-02-peaks.vercel.app
+- **Live Website**: [Live Deployed App on Vercel](https://final-project-02-peaks-4pc5.vercel.app/)
 - **GitHub Repository**: [GitHub Repository](https://github.com/CMPT-276-SPRING-2025/final-project-02-peaks)
-- **Video Demo**:
-- **Milestone 2 Final Report**: 
+- **Video Demo**: [Youtube Link](https://youtu.be/xuyr_1DaKwA)
+- **Final Video Presentation**: [Youtube Link](https://youtu.be/7zcDg8_w024)
+- **Milestone 2 Final Report**: _Submitted through canvas_
 
 
 
